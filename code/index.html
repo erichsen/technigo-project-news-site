@@ -2,22 +2,75 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!-- Change the title below -->
-    <title>News Site</title>
+    <title>Dinosaurs for life</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- dont forget the meta tag for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <header>
-      <!-- Some kind of logo and navbar -->
-    </header>
+    <!-- Grid parent -->
+    <section class="grid-parent">
 
-    <section class="big-news">
-      <!-- The big news content -->
+      <!-- Header including a logo and a menu -->
+      <header>
+        <img src="assets/dinosaur-logo2.png" class="logo" alt="Dinosaurs4life" />
+        <nav>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Dinosaurs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero section, fullwidth -->
+      <div class="hero">
+        <img src="assets/hero-dinosaur-in-the-woods2.jpg" alt="Majestic Dinosaur"/>
+      
+      <!-- Welcome text and main news article -->
+      <div class="welcome">
+          <h1>Dinosaurs are not extinct</h1>
+      </div>
+    </div>
+        <div class="flex-big-news">
+          <img src="assets/a-brontosaurus-eating-some-grass-in-the-forest.jpeg" alt="Dinosaur" />
+          <h3>Main article</h3>
+          <p>This is the main article. Very big and nice and fun. Very much fun, nice and big you know.
+            This is because it is the main article. So it will be taking more place and that as is intended.
+            So you don't have to worry about this. Longer text, bigger image etc. All very good. 
+          </p>
+
+        </div>
+
+
+      <!-- News section, fullwidth with div for heading and below four divs equal size -->
+      <section class="parent-flex-news">
+        <div class="flex-news">
+          <img src="assets/dinosaur1.jpeg" alt="Majestic Dinosaur"/>
+          <h3>News #1</h3>
+          <br />
+          <p>Not really a T-rex, huh? But a scary individual nonetheless. If you see one, you should seek shelter immediately.</p>
+        </div>
+        <div class="flex-news">
+          <img src="assets/a-brontosaurus-eating-some-grass-in-the-forest.jpeg" alt="Majestic Dinosaur"/>
+          <h3>News #2</h3>
+          <p>Good grass-eating dino. Good and clumsy boy, would not recommend getting close, you will most likely be trampled.</p>
+        </div>
+        <div class="flex-news">
+          <img src="assets/a-pteradactyl-in-the-sky-seeing-some-forest-below.jpeg" alt="Majestic Dinosaur"/>
+          <h3>News #3</h3>
+          <p>Flying dino, pretty wings. Looks very gracious from afar, but you don't want to be near its claws, they are danger. </p>
+        </div>
+        <div class="flex-news">
+          <img src="assets/a-stegosaurus-eating-from-a-tall-tree-in-a-forest.jpeg" alt="Majestic Dinosaur"/>
+          <h3>News #4</h3>
+          <p>Tree-eating dino? Really slow, like a sloth. You can climb up its tail and sit on it's face, it won't even care.</p>
+        </div>
+      </section>
     </section>
 
-    <section class="">
-      <!-- The other news  -->
-    </section>
+    <!-- Footer including copyright text -->
+    <footer>
+      <p>Copyright dinosaurs4life</p>
+    </footer>
   </body>
 </html>
