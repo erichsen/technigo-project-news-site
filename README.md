@@ -1,10 +1,14 @@
-# News Site
+# Dinosaur news Site
+The assignment was to create a news page about anything and follow some set guidelines.
+I chose dinosaurs, because why not. 
+The purpose was to use the techniques CSS Grid and Flexbox together to create this news page, the content itself is not important.
 
-Replace this readme with your own information about the project. You can include things like:
+The first thing I did was to draw a first rough draft on how I wanted the site to look on a paper with a pencil, analogue style. 
+I only focused on the desktop version at the beginning so I had to make some changes along the way to make the content look decent on tablet and mobile and also following the guidelines. But that was all done in VS Code.
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+If I had more time I would have made the news items look more like cards or separate than they do now. I would also have focused more on the navigation to make that a bit more fancy. 
+
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://technigo-news-site-dinosaurs.netlify.app/
+
