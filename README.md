@@ -10,5 +10,5 @@ If I had more time I would have made the news items look more like cards or sepa
 
 
 ## View it live
-https://technigo-news-site-dinosaurs.netlify.app/
+[https://technigo-news-site-dinosaurs.netlify.app/](https://dinosaur-news-site.netlify.app/)
 
